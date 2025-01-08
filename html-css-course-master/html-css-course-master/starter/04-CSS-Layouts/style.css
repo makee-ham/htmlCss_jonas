@@ -274,3 +274,9 @@ nav p {
 .author {
   padding-left: 80px;
 }
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block; /* clear both는 block 요소에만 적용 */
+}
